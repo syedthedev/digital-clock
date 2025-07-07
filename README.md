@@ -1,12 +1,48 @@
-# React + Vite
+# 🕒 Digital Clock (React)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A sleek and responsive Digital Clock built using **React**.  
+Displays the current time with automatic updates every second and supports all screen sizes with a stylish blur-glass effect.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- 🕰️ Real-time digital clock with seconds  
+- 📱 Fully responsive across all screen sizes (mobile to desktop)  
+- 🎨 Glassmorphism UI using `backdrop-filter: blur()`  
+- 🌄 Custom background image support  
+- ⚛️ Built entirely with **React** (Functional Components + Hooks)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🔗 Live Preview
+
+👉 [View Live on Netlify](https://react-app-clock.netlify.app/)
+
+> Works across all devices with consistent UI and performance.
+
+---
+
+## 🧪 Technologies Used
+
+- **React** (with `useState` and `useEffect`)  
+- **CSS3** with `vw`-based responsiveness  
+- **HTML5**  
+- **Netlify** (for deployment)
+
+---
+
+## 🧑‍💻 Getting Started (Local Setup)
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/syedthedev/digital-clock.git
+
+# 2. Navigate into the folder
+cd digital-clock
+
+# 3. Install dependencies
+npm install
+
+# 4. Start the development server
+npm run dev
